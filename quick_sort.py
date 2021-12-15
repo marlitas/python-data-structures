@@ -49,3 +49,5 @@ def quick_sort(list):
 my_list = [4, 6, 1, 7, 3, 2, 5]
 print(quick_sort(my_list))
             
+# O(n log n)
+# worst case scenario is fully sorted items which makes it O(n^2)
